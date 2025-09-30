@@ -21,7 +21,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 ## Home
 
-dasdas
+haloooooooo
 
 ## About me
 
@@ -37,13 +37,13 @@ asdas
 - CSS
 - JavaScript
 
-## 📸 Preview
+## Preview
 
-## 🏠 Home Page
+### Home Page
 ![Home Preview](./assets/home.png)
 
-## 👩‍💻 About Me
+### About Me
 ![About Me Preview](./assets/aboutme.png)
 
-## 📂 Contact ME
+### Contact ME
 ![Contact Me Preview](./assets/contact.png)
