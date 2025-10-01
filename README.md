@@ -5,7 +5,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 ## Links
 
 - [My Portfolio](https://myportfolio.com)
-- [UI/UX Design Resources](https://www.figma.com/design/Dd8p7G37TJH981DMpL2Vft/PROJECT-PORTOFOLIO---RAMIRO-CY?node-id=0-1&t=5SpMTytF1Hz7mDBP-1)
+- [UI/UX Design Resources](https://www.figma.com/proto/Dd8p7G37TJH981DMpL2Vft/PROJECT-PORTOFOLIO---RAMIRO-CY?node-id=2-2&p=f&t=AQjZ8jjvLuhiVPpH-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ## Social Media
 
@@ -21,7 +21,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 ## Home
 
-haloooooooo
+kamu siapa jirgit
 
 ## About me
 
