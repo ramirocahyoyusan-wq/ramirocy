@@ -21,15 +21,15 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 ## Home
 
-kamu siapa jirgit
+coba 123
 
 ## About me
 
-asdada
+coba aja
 
 ## Contact
 
-asdas
+coba aja
 
 ## Technologies Used
 
