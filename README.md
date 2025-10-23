@@ -35,7 +35,7 @@ Let’s get in touch! I’m always open to collaboration, internships, or just a
 
 - 📧 Email: [ramirocahyoyusan@gmail.com]
 - 💼 LinkedIn: [www.linkedin.com/in/ramirocy]
-- 📸 Instagram: [https://www.instagram.com/ramcyy_?igsh=N2FiM3U2Znk2NDF1&utm_source=qr]
+- 📸 Instagram: [https://www.instagram.com/ramcyy_]
 
 ## Technologies Used
 
