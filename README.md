@@ -32,9 +32,10 @@ Hi! I’m Ramiro, an Information Systems student with a strong interest in web d
 ## Contact
 
 Let’s get in touch! I’m always open to collaboration, internships, or just a friendly chat about web development.
-📧 Email: [ramirocahyoyusan@gmail.com]
-💼 LinkedIn: [www.linkedin.com/in/ramirocy]
-📸 Instagram: [https://www.instagram.com/ramcyy_?igsh=N2FiM3U2Znk2NDF1&utm_source=qr]
+
+- 📧 Email: [ramirocahyoyusan@gmail.com]
+- 💼 LinkedIn: [www.linkedin.com/in/ramirocy]
+- 📸 Instagram: [https://www.instagram.com/ramcyy_?igsh=N2FiM3U2Znk2NDF1&utm_source=qr]
 
 ## Technologies Used
 
