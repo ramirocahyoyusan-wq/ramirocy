@@ -1,3 +1,18 @@
+      @media (max-width: 768px) {
+        .hero {
+          flex-direction: column;
+          padding: 20px;
+        }
+
+        .hero-text h1 {
+          font-size: 60px;
+        }
+
+        .hero-image {
+          margin-top: 30px;
+        }
+      }
+    
     body {
         font-family: 'Abel', sans-serif;
         margin: 0;

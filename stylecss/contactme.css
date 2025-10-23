@@ -1,3 +1,18 @@
+      @media (max-width: 768px) {
+        .hero {
+          flex-direction: column;
+          padding: 20px;
+        }
+
+        .hero-text h1 {
+          font-size: 60px;
+        }
+
+        .hero-image {
+          margin-top: 30px;
+        }
+      }
+
 body {
         font-family: 'Abel', sans-serif;
         margin: 0;
@@ -12,8 +27,9 @@ body {
         padding: 0;
         font-family: 'VT323', monospace;
         font-size: 25px;
-        margin: center; 
+        margin: 10px 0; 
         gap: 25px;
+        margin-bottom: center;
     }
 
     .nav-links a {
@@ -36,12 +52,13 @@ body {
     }
 
     h1 {
-        font-family: 'vt323', monospace;
+        font-family: 'taprom', sans-serif;
         font-size: 50px;
         color: #FFFFFF;
         text-align: center;
         font-weight: normal;
-        margin-bottom: 20px;
+        margin-bottom: center;
+        margin-top: center;
     }
 
     .socials {
