@@ -1,122 +1,175 @@
-      @media (max-width: 768px) {
-        .hero {
-          flex-direction: column;
-          padding: 20px;
-        }
+/* 🌸 Responsif (untuk layar HP/tablet) */
+@media (max-width: 768px) {
+.hero {
+    flex-direction: column;
+    padding: 20px;
+}
 
-        .hero-text h1 {
-          font-size: 60px;
-        }
+  .hero-text h1 {
+    font-size: 60px;
+  }
 
-        .hero-image {
-          margin-top: 30px;
-        }
-      }
-    
-    body {
-        font-family: 'Abel', sans-serif;
-        margin: 0;
-        background-color: #461212;
-    }
+  .hero-image {
+    margin-top: 30px;
+  }
 
-    content {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        font-family: 'Abel', sans-serif;
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: 1.6;}
+  .container {
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+}
 
+/* 🌹 Tampilan umum */
+body {
+font-family: 'Abel', sans-serif;
+    margin: 0;
+  background-color: #461212;
+  color: #FFFFFF;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
 
-    .site-header {
-        background-color: #461212;
-        color: #fff;
-        padding: 10px 0;
-        text-align: center;
-        font-family: 'VT323', monospace;
-        font-size: 30px;
-    }
+/* ✨ Area konten utama */
+content {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
 
-    .nav-links {
-        color: #DFB73D;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        font-family: 'VT323', monospace;
-        font-size: 25px;
-        margin: 0;
-        gap: 25px;
-    }
+/* 🌟 Header utama */
+.site-header {
+  background: linear-gradient(135deg, #5C1A1A, #461212);
+  color: #DFB73D;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 34px;
+  letter-spacing: 3px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  bottom: 110px;
+  z-index: 10;
+  
+}
 
-    .nav-links a {
-        color: #DFB73D;
-        text-decoration: none;;
-    }
+/* 💛 Navigasi */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 15px 0 0;
+  gap: 35px;
+  font-family: 'VT323', monospace;
+  font-size: 26px;
+}
 
-    .nav-links a:hover {
-        text-decoration: underline;
-    }   
+/* 🌼 Link style */
+.nav-links a {
+  color: #DFB73D;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 25px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
 
-    .container {
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 10px;
-        margin: 10px;
-        padding: 20px 200px;
-    }
+.nav-links a:hover {
+  background: #DFB73D;
+  color: #461212;
+  transform: translateY(-3px);
+}
 
-    .section h2 {
-        font-family: 'Taprom', sans-serif;
-        font-size: 80px;
-        color: #DFB73D;
-        margin-bottom: 5px;
-        margin-top: 10px;
-    }
+/* 💎 Container utama (isi halaman) */
+.container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  padding: 40px 100px;
+}
 
-    .item {
-        margin-bottom: 20px;
-    }
+/* ✨ Judul section */
+.section h2 {
+  font-family: 'Taprom', sans-serif;
+  font-size: 80px;
+  color: #DFB73D;
+  text-align: center;
+  margin-bottom: -150px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px rgba(223, 183, 61, 0.4);
+  margin-top: 10px;
+  position: relative;
+  bottom: 200px;
+}
 
-    .title {
-        text-align: center;
-        font-family: 'abhaya libre', serif;
-        font-size: 20px;
-        margin-bottom: 20px;
-        color: #FFFFFF;
-        font-weight: bold;
-    }
+/* 📜 Item tiap bagian */
+.item {
+  margin-bottom: 30px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
 
-    .year {
-        font-weight: bold;
-        font-family: 'abhaya libre', serif;
-        font-size: 20px;
-        color: #DFB73D;
-        margin-right: 10px;
-    }
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(223, 183, 61, 0.25);
+}
 
-    .desc {
-        font-family: 'abhaya libre', serif;
-        font-size: 20px;
-        color: #FFFFFF;
-        margin-right: 10px;
-    }
+/* 🧡 Judul isi */
+.title {
+  text-align: center;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
-    .tools {
-        font-style: italic;
-        color: #FFFFFF;
-    }
+/* 🕰 Tahun */
+.year {
+  font-weight: bold;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 20px;
+  color: #DFB73D;
+  margin-right: 10px;
+}
 
-    .tools i {
-        font-style: normal;
-        color: #FFFFFF;
-        margin-top: 10px; 
-        font-size: 25px;
-        gap: 200px;  
-    }
+/* 📖 Deskripsi */
+.desc {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 5px;
+  line-height: 1.6;
+}
 
-    .tools-i :hover {
-        text-decoration: underline;
-    }
+/* 🔧 Tools */
+.tools {
+  font-style: italic;
+  color: #FFFFFF;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tools i {
+  font-style: normal;
+  color: #DFB73D;
+  margin: 0 8px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.tools i:hover {
+  color: #FFFFFF;
+  transform: scale(1.2);
+}

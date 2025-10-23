@@ -1,89 +1,135 @@
-      @media (max-width: 768px) {
-        .hero {
-          flex-direction: column;
-          padding: 20px;
-        }
+/* 🌸 Responsif untuk HP & tablet */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-        .hero-text h1 {
-          font-size: 60px;
-        }
+  .hero-text h1 {
+    font-size: 48px;
+  }
 
-        .hero-image {
-          margin-top: 30px;
-        }
-      }
+  .hero-image {
+    margin-top: 20px;
+  }
 
+  .contact-container {
+    margin: 60px 20px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .socials a {
+    font-size: 32px;
+  }
+}
+
+/* 🌹 Body */
 body {
-        font-family: 'Abel', sans-serif;
-        margin: 0;
-        background-color: #461212;
-    }
+  font-family: 'Abel', sans-serif;
+  margin: 0;
+  background-color: #461212;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
 
-    .nav-links {
-        color: #DFB73D;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        font-family: 'VT323', monospace;
-        font-size: 25px;
-        margin: 10px 0; 
-        gap: 25px;
-        margin-bottom: center;
-    }
+/* 💛 Navigasi */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 0;
+  margin: 30px 0;
+  font-family: 'VT323', monospace;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
 
-    .nav-links a {
-        color: #DFB73D;
-        text-decoration: none;;
-    }
+/* 💫 Link navigasi */
+.nav-links a {
+  color: #DFB73D;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 8px 25px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
 
-    .nav-links a:hover {
-        text-decoration: underline;
-    }
-    
-    .contact-container {
-        max-width: 600px;
-        margin: 100px auto;
-        padding: 20px;
-        background-color: #2C0A0A;
-        border-radius: 8px;
-        font-family: 'Abel', sans-serif;
-        color: #FFFFFF;
-    }
+.nav-links a:hover {
+  background: #DFB73D;
+  color: #461212;
+  transform: translateY(-3px);
+}
 
-    h1 {
-        font-family: 'taprom', sans-serif;
-        font-size: 50px;
-        color: #FFFFFF;
-        text-align: center;
-        font-weight: normal;
-        margin-bottom: center;
-        margin-top: center;
-    }
+/* 🌟 Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #5C1A1A, #461212);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 
-    .socials {
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin-top: 20px;
-    }
+/* 💌 Container utama */
+.contact-container {
+  max-width: 650px;
+  margin: 120px auto;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  text-align: center;
+  transition: all 0.3s ease;
+}
 
-    .socials a {
-        color: #DFB73D;
-        font-size: 40px;
-        text-decoration: none;
-    }
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(223, 183, 61, 0.25);
+}
 
-    .socials a:hover {
-        color: #FFFFFF;
-    }
+/* 🧡 Judul */
+h1 {
+  font-family: 'Taprom', sans-serif;
+  font-size: 60px;
+  color: #DFB73D;
+  text-align: center;
+  margin-bottom: 170px;
+  font-weight: normal;
+  text-shadow: 2px 2px 10px rgba(223, 183, 61, 0.3);
+  position: relative;
+  top: 150px;
+}
 
-    header {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 200px;
-    }
+/* 📱 Social media icons */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.socials a {
+  color: #DFB73D;
+  font-size: 45px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.socials a:hover {
+  color: #FFFFFF;
+  transform: scale(1.2) rotate(8deg);
+  text-shadow: 0 0 15px rgba(223, 183, 61, 0.5);
+}
