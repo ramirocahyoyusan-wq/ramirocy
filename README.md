@@ -11,7 +11,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 - [GitHub](https://github.com)
 - [LinkedIn](https://linkedin.com)
-- etc...
+- [Instagram](https://www.instagram.com/ramcyy_?igsh=N2FiM3U2Znk2NDF1&utm_source=qr)
 
 ## Pages
 
@@ -40,10 +40,13 @@ coba aja
 ## Preview
 
 ### Home Page
+
 ![Home Preview](./assets/home.png)
 
 ### About Me
+
 ![About Me Preview](./assets/aboutme.png)
 
 ### Contact ME
+
 ![Contact Me Preview](./assets/contact.png)

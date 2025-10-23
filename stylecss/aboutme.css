@@ -1,0 +1,107 @@
+    body {
+        font-family: 'Abel', sans-serif;
+        margin: 0;
+        background-color: #461212;
+    }
+
+    content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Abel', sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 1.6;}
+
+
+    .site-header {
+        background-color: #461212;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+    }
+
+    .nav-links {
+        color: #DFB73D;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        font-family: 'VT323', monospace;
+        font-size: 25px;
+        margin: 0;
+        gap: 25px;
+    }
+
+    .nav-links a {
+        color: #DFB73D;
+        text-decoration: none;;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
+    }   
+
+    .container {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 10px;
+        margin: 10px;
+        padding: 20px 200px;
+    }
+
+    .section h2 {
+        font-family: 'Taprom', sans-serif;
+        font-size: 80px;
+        color: #DFB73D;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }
+
+    .title {
+        text-align: center;
+        font-family: 'abhaya libre', serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .year {
+        font-weight: bold;
+        font-family: 'abhaya libre', serif;
+        font-size: 20px;
+        color: #DFB73D;
+        margin-right: 10px;
+    }
+
+    .desc {
+        font-family: 'abhaya libre', serif;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-right: 10px;
+    }
+
+    .tools {
+        font-style: italic;
+        color: #FFFFFF;
+    }
+
+    .tools i {
+        font-style: normal;
+        color: #FFFFFF;
+        margin-top: 10px; 
+        font-size: 25px;
+        gap: 200px;  
+    }
+
+    .tools-i :hover {
+        text-decoration: underline;
+    }
