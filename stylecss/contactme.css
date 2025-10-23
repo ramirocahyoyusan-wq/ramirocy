@@ -1,25 +1,73 @@
-/* 🌸 Responsif untuk HP & tablet */
+/* =============================
+   RESPONSIVE DESIGN (≤768px)
+============================= */
 @media (max-width: 768px) {
+
+  /* Hero Section */
   .hero {
     flex-direction: column;
-    padding: 20px;
+    padding: 25px 20px;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
   }
 
   .hero-text h1 {
-    font-size: 48px;
+    font-size: 42px; /* sedikit lebih kecil agar muat di layar HP */
+    margin-top: 10px;
   }
 
   .hero-image {
-    margin-top: 20px;
+    margin-top: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
 
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* Header & Navigation */
+  header {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0 0;
+  }
+
+  .nav-links a {
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+
+  /* Contact Section */
   .contact-container {
     margin: 60px 20px;
-    padding: 25px;
+    padding: 25px 20px;
+    max-width: 90%;
   }
 
+  /* Heading */
   h1 {
     font-size: 38px;
+    margin-bottom: 100px;
+    top: 100px;
+  }
+
+  /* Social Icons */
+  .socials {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
   }
 
   .socials a {
@@ -27,7 +75,8 @@
   }
 }
 
-/* 🌹 Body */
+
+
 body {
   font-family: 'Abel', sans-serif;
   margin: 0;
@@ -36,7 +85,7 @@ body {
   overflow-x: hidden;
 }
 
-/* 💛 Navigasi */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -49,7 +98,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* 💫 Link navigasi */
+
 .nav-links a {
   color: #DFB73D;
   text-decoration: none;
@@ -66,7 +115,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* 🌟 Header */
+
 header {
   text-align: center;
   padding: 20px 0;
@@ -80,7 +129,7 @@ header {
   z-index: 10;
 }
 
-/* 💌 Container utama */
+
 .contact-container {
   max-width: 650px;
   margin: 120px auto;
@@ -99,7 +148,7 @@ header {
   box-shadow: 0 6px 30px rgba(223, 183, 61, 0.25);
 }
 
-/* 🧡 Judul */
+
 h1 {
   font-family: 'Taprom', sans-serif;
   font-size: 60px;
@@ -112,7 +161,7 @@ h1 {
   top: 150px;
 }
 
-/* 📱 Social media icons */
+
 .socials {
   display: flex;
   justify-content: center;

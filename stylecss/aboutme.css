@@ -1,25 +1,89 @@
-/* 🌸 Responsif (untuk layar HP/tablet) */
+
+/* =============================
+   RESPONSIVE DESIGN (≤768px)
+============================= */
 @media (max-width: 768px) {
-.hero {
+
+  /* Hero Section */
+  .hero {
     flex-direction: column;
     padding: 20px;
-}
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+  }
 
   .hero-text h1 {
-    font-size: 60px;
+    font-size: 50px; /* Ukuran lebih proporsional di HP */
+    margin-top: 10px;
   }
 
   .hero-image {
-    margin-top: 30px;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
 
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Navigation */
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+
+  /* Container (Grid Sections) */
   .container {
     padding: 20px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Semua item ditumpuk ke bawah */
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  /* Section Title */
+  .section h2 {
+    font-size: 48px;
+    margin-bottom: -80px;
+    bottom: 100px;
+  }
+
+  /* Item Cards */
+  .item {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .year {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .tools {
+    font-size: 14px;
   }
 }
 
-/* 🌹 Tampilan umum */
+
+
 body {
 font-family: 'Abel', sans-serif;
     margin: 0;
@@ -30,7 +94,7 @@ font-family: 'Abel', sans-serif;
   position: relative;
 }
 
-/* ✨ Area konten utama */
+
 content {
   display: block;
   max-width: 900px;
@@ -42,7 +106,7 @@ content {
   backdrop-filter: blur(5px);
 }
 
-/* 🌟 Header utama */
+
 .site-header {
   background: linear-gradient(135deg, #5C1A1A, #461212);
   color: #DFB73D;
@@ -57,7 +121,7 @@ content {
   
 }
 
-/* 💛 Navigasi */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -69,7 +133,7 @@ content {
   font-size: 26px;
 }
 
-/* 🌼 Link style */
+
 .nav-links a {
   color: #DFB73D;
   text-decoration: none;
@@ -86,7 +150,7 @@ content {
   transform: translateY(-3px);
 }
 
-/* 💎 Container utama (isi halaman) */
+
 .container {
   margin-top: 100px;
   display: grid;
@@ -95,7 +159,7 @@ content {
   padding: 40px 100px;
 }
 
-/* ✨ Judul section */
+
 .section h2 {
   font-family: 'Taprom', sans-serif;
   font-size: 80px;
@@ -109,7 +173,7 @@ content {
   bottom: 200px;
 }
 
-/* 📜 Item tiap bagian */
+
 .item {
   margin-bottom: 30px;
   padding: 25px;
@@ -124,7 +188,7 @@ content {
   box-shadow: 0 5px 20px rgba(223, 183, 61, 0.25);
 }
 
-/* 🧡 Judul isi */
+
 .title {
   text-align: center;
   font-family: 'Abhaya Libre', serif;
@@ -135,7 +199,7 @@ content {
   text-transform: capitalize;
 }
 
-/* 🕰 Tahun */
+
 .year {
   font-weight: bold;
   font-family: 'Abhaya Libre', serif;
@@ -144,7 +208,7 @@ content {
   margin-right: 10px;
 }
 
-/* 📖 Deskripsi */
+
 .desc {
   font-family: 'Abhaya Libre', serif;
   font-size: 18px;
@@ -153,7 +217,7 @@ content {
   line-height: 1.6;
 }
 
-/* 🔧 Tools */
+
 .tools {
   font-style: italic;
   color: #FFFFFF;
