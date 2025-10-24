@@ -1,4 +1,4 @@
-# 💡Personal Website
+# 💡 Personal Website
 
 This is my personal website where I showcase my portfolio and blog about web development.
 My goal is to keep learning, building, and connecting with others who share the same enthusiasm for technology and innovation.
@@ -20,7 +20,7 @@ My goal is to keep learning, building, and connecting with others who share the 
 - About ME
 - Contact
 
-## 🏠Home
+## 🏠 Home
 
 Welcome to my personal website! I’m passionate about creating clean, responsive, and modern websites that deliver great user experiences.
 Here, you can explore my portfolio, read my thoughts on web development, and see what I’ve been working on lately!
@@ -37,13 +37,13 @@ Let’s get in touch! I’m always open to collaboration, internships, or just a
 - 💼 LinkedIn: [www.linkedin.com/in/ramirocy]
 - 📸 Instagram: [https://www.instagram.com/ramcyy_]
 
-## 🔧Technologies Used
+## 🔧 Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- 🧩 HTML
+- 🎨 CSS
+- ⚡ JavaScript
 
-## Preview
+## 🌍 Preview
 
 ### Home Page
 
